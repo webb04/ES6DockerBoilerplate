@@ -1,0 +1,31 @@
+{
+    "containers": [
+        {
+            "prettyName": "Node 0.10.40",
+            "image": "node:0.10.40",
+            "beforeScripts": [
+                "npm install",
+                "npm install -g mocha"
+            ],
+            "testCommand": "mocha"
+        },
+        {
+            "prettyName": "Node 0.12",
+            "image": "node:0.12",
+            "beforeScripts": [
+                "npm install",
+                "npm install -g mocha"
+            ],
+            "testCommand": "mocha"
+        },
+        {
+            "prettyName": "Node Latest",
+            "image": "node:latest",
+            "beforeScripts": [
+                "npm install",
+                "npm install -g mocha"
+            ],
+            "testCommand": "mocha"
+        }
+    ]
+}
