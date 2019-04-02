@@ -1,4 +1,4 @@
-# ES6-Docker-Boilerplate
+# ES6DockerBoilerplate
 
 To Run:
 - npm install
